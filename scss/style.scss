@@ -1,8 +1,15 @@
 @import "bootstrap/bootstrap.scss";
+@import "header";
+@import "footer";
+@import "contacto";
+@import "nav";
+@import "logo";
+.btn:hover {
+    background-color: rgb(75, 74, 74);
+       transform: scale(1.3);
+}
 
-
-div {
-    h1 {
-        font-size: large;
-    }
+#carouselExampleSlidesOnly {
+    display: flex;
+    justify-content: center;
 }

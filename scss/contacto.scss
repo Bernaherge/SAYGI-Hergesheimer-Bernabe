@@ -1,0 +1,26 @@
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+
+.item-01:hover {
+    transform: scale(2);
+}
+.item-02:hover {
+  transform: scale(2);
+}
+.item-03:hover {
+  transform: scale(2);
+}
+.item-04:hover {
+  transform: scale(2);
+}
+
+
+.redes {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+   }
