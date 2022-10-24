@@ -1,7 +1,12 @@
-.navbar .expand {
-    justify-content: left;
-}
 
+.navbar {
+    background-color: rgb(212, 214, 218);
+    }
+.navbar-nav {    
+       :hover {
+        transform: scale(1.09);
+    }
+   }
 
 @media screen and (min-width: 768px) {
     .navbar .expand {
