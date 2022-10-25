@@ -8428,7 +8428,8 @@ footer {
 
 .navbar-nav {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  cursor: pointer; }
   .navbar-nav :hover {
     transform: scale(1.02); }
 

@@ -8,11 +8,12 @@
         transform: scale(1.02);
             }
          display: flex;
-         justify-content: space-around;          
+         justify-content: space-around;
+         cursor: pointer;          
    }
 
 @media screen and (min-width: 768px) {
     .navbar .expand {
         justify-content: flex-end;
        }
-}
+    }
