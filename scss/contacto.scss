@@ -1,5 +1,4 @@
 
-
 .contenedor {
     display: grid;
     grid-template-columns: auto auto;
@@ -10,6 +9,13 @@
     display: flex;
     justify-content: space-between;
     :hover {
-        transform: scale(2);
+        transform: scale(1.2);
     }
    }
+
+   @media screen and (max-width: 768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+       }
+}

@@ -8415,7 +8415,12 @@ footer {
   display: flex;
   justify-content: space-between; }
   .redes :hover {
-    transform: scale(2); }
+    transform: scale(1.2); }
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column; } }
 
 .navbar {
   background-color: #d4d6da;
