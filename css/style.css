@@ -8418,10 +8418,14 @@ footer {
     transform: scale(2); }
 
 .navbar {
-  background-color: #d4d6da; }
+  background-color: #d4d6da;
+  font-size: 20px; }
 
-.navbar-nav :hover {
-  transform: scale(1.09); }
+.navbar-nav {
+  display: flex;
+  justify-content: space-around; }
+  .navbar-nav :hover {
+    transform: scale(1.02); }
 
 @media screen and (min-width: 768px) {
   .navbar .expand {

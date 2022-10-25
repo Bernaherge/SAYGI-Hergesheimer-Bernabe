@@ -1,15 +1,18 @@
 
 .navbar {
     background-color: rgb(212, 214, 218);
-    }
+    font-size: 20px;
+        }
 .navbar-nav {    
        :hover {
-        transform: scale(1.09);
-    }
+        transform: scale(1.02);
+            }
+         display: flex;
+         justify-content: space-around;          
    }
 
 @media screen and (min-width: 768px) {
     .navbar .expand {
         justify-content: flex-end;
-    }
+       }
 }
