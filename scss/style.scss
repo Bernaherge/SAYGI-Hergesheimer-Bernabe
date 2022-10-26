@@ -5,6 +5,12 @@
 @import "nav";
 @import "logo";
 
+$tipografia-general: 'Roboto', sans-serif;
+$fuente-grande: 45px;
+$pesp-fuente: bold;
+$fuente-media: 25px;
+
+
 .carousel-inner img {
     margin: auto;
   }
@@ -14,14 +20,15 @@
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 45px;
-    font-weight: bold;
+    font-size: $fuente-grande;
+    font-family: $tipografia-general;
+    font-weight: $pesp-fuente;
+
 }
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
+    font-family: $tipografia-general;
+    font-size: $fuente-media;
+    font-weight: $pesp-fuente;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
