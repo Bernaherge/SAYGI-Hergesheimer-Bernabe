@@ -7,9 +7,8 @@
 
 $tipografia-general: 'Roboto', sans-serif;
 $fuente-grande: 45px;
-$pesp-fuente: bold;
+$peso-fuente: bold;
 $fuente-media: 25px;
-
 
 .carousel-inner img {
     margin: auto;
@@ -18,19 +17,31 @@ $fuente-media: 25px;
     background-color: rgb(75, 74, 74);
        transform: scale(1.3);
 }
-
+@mixin size ($altura, $peso, $fuente) {
+    font-size: $altura;
+    font-weight: $peso;
+    font-family: $fuente;
+}
+p {
+    @include size (15px, bold, Verdana)
+}
 h1 {
     font-size: $fuente-grande;
     font-family: $tipografia-general;
-    font-weight: $pesp-fuente;
-
+    font-weight: $peso-fuente;
 }
 h2 {
     font-family: $tipografia-general;
     font-size: $fuente-media;
-    font-weight: $pesp-fuente;
+    font-weight: $peso-fuente;
 }
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+
+.pepito {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
 }
+.resumen {
+    @extend .pepito
+}
+
