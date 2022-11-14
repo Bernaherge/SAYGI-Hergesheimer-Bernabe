@@ -8408,7 +8408,7 @@ footer {
 
 .contenedor {
   display: grid;
-  grid-template-columns: auto auto; }
+  grid-template-columns: 50% 50%; }
 
 .redes {
   padding: 100px;
@@ -8421,6 +8421,19 @@ footer {
   .contenedor {
     display: flex;
     flex-direction: column; } }
+
+.ubicacion {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.ubicacion iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
 
 .navbar {
   background-color: #d4d6da;
